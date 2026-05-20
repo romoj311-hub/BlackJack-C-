@@ -34,6 +34,7 @@ public:
     // getHandValue() - Calculates and returns the total value of the player's hand
     // Handles Ace logic (can be 1 or 11) to avoid busting if possible
     int getHandValue() const;
+    const vector<int>& getHand() const { return hand; } // for SFML rendering
 
     // getName() - Returns the player's name
     const string& getName() const;

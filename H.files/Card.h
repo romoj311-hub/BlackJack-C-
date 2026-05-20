@@ -68,4 +68,5 @@ public:
 	void flip();
 	// setFaceUp() - Sets the card's face-up state to the specified value
 	void setFaceUp(bool faceUp);
+
 };
